@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,92477,function(t){t.n(t.i(2920))},65415,t=>{"use strict";let o=(0,t.i(5945).createMotionProxy)();t.s(["m",0,o])}]);

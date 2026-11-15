@@ -1,0 +1,138 @@
+// Projects shown in the Featured Work section. Source: "Sebin george vattappallil.pdf" (pp folder),
+// plus the three case studies from the Sebin Figma portfolio.
+export const projects = [
+  {
+    slug: "whytefarms-dairy-website",
+    title: "WHYTEFARMS — PREMIUM DAIRY WEBSITE",
+    role: "Freelance UI/UX Designer",
+    status: "Website redesign",
+    highlights: [
+      "Designed a premium, mobile-first, responsive website for a single-origin dairy brand, communicating purity, traceability and freshness through visual design and product storytelling.",
+      "Structured the information architecture across Home, Products, Farm, About, Blog, FAQs and Contact pages for clear, easy navigation.",
+    ],
+    tech: ["Figma", "Adobe Photoshop", "HTML/CSS knowledge"],
+    github: "#",
+    live: "#",
+    featured: true,
+    year: "2026",
+    image: "/project-images/whytefarms.png",
+    technicalConstraints:
+      "Premium, mobile-first dairy website redesign built around product storytelling. The information architecture spans Home, Products, Farm, About, Blog, FAQs and Contact so visitors can find purity and traceability details quickly.",
+    description:
+      "Premium, mobile-first redesign of a single-origin dairy brand's website, focused on purity, traceability and freshness.",
+  },
+  {
+    slug: "flonnect-saas-dashboard",
+    title: "FLONNECT — SAAS DASHBOARD & CHROME EXTENSIONS",
+    role: "UI/UX Designer - GS Tech Technologies",
+    status: "SaaS product",
+    highlights: [
+      "Designed the web dashboard and Chrome extensions for a screen and webcam recording and productivity platform.",
+      "Created extension interfaces for recorder, downloader, highlighter, bookmarker and utility workflows, simplifying key user flows.",
+      "Built reusable, component-based UI systems and delivered implementation-ready designs to developers.",
+    ],
+    tech: ["Figma", "Chrome Extensions", "Design Systems", "SaaS Dashboard"],
+    github: "#",
+    live: "#",
+    featured: true,
+    year: "2024",
+    image: "/project-images/flonnect.png",
+    technicalConstraints:
+      "SaaS dashboard plus a set of Chrome extension interfaces (recorder, downloader, highlighter, bookmarker and utilities) for a screen and webcam recording platform, delivered as component-based, implementation-ready Figma systems.",
+    description:
+      "Web dashboard and Chrome extension interfaces for a screen and webcam recording and productivity platform.",
+  },
+  {
+    slug: "adspyder-ad-intelligence",
+    title: "ADSPYDER — AD INTELLIGENCE DASHBOARD",
+    role: "UI/UX Designer - GS Tech Technologies",
+    status: "SaaS product",
+    highlights: [
+      "Designed dashboard and product interfaces for an ad intelligence platform, focusing on clear data presentation and usability.",
+      "Improved product flows through wireframing, visual design and prototyping, collaborating with product and development teams to refine requirements.",
+    ],
+    tech: ["Figma", "Wireframing", "Prototyping", "Data Visualization UI"],
+    github: "#",
+    live: "#",
+    featured: true,
+    year: "2024",
+    image: "/project-images/adspyder.png",
+    technicalConstraints:
+      "Dashboard and product interfaces for an ad intelligence platform, designed for clear data presentation and usability, refined through wireframes, visual design and prototypes with the product and development teams.",
+    description: "Dashboard and product interfaces for an ad intelligence SaaS platform, designed for clear data presentation.",
+  },
+  {
+    slug: "hexagulf-corporate-website",
+    title: "HEXAGULF — CORPORATE WEBSITE REDESIGN",
+    role: "UI/UX Designer",
+    status: "Website redesign",
+    highlights: [
+      "Designed the redesigned corporate website for a trading and scientific company in Figma, with a clean, professional visual style and clear page structure.",
+      "Built an interactive Figma prototype to demonstrate navigation and page flows.",
+      "Converted business requirements into responsive, user-friendly page layouts.",
+    ],
+    tech: ["Figma", "Prototyping", "Responsive Design"],
+    github: "#",
+    live: "#",
+    featured: true,
+    year: "—",
+    image: "/project-images/hexagulf.png",
+    technicalConstraints:
+      "Corporate website redesign for a trading and scientific company, with an interactive Figma prototype that demonstrates navigation and page flows, translating business requirements into responsive page layouts.",
+    description: "Clean, professional redesign of a trading and scientific company's corporate website, with an interactive prototype.",
+  },
+  {
+    slug: "mediflow-healthcare-app",
+    title: "MEDIFLOW — HEALTHCARE MOBILE APP",
+    role: "UI/UX Designer",
+    status: "Case study",
+    highlights: [
+      "A streamlined healthcare platform simplifying patient management, appointment scheduling and provider interactions through intuitive digital experiences.",
+    ],
+    tech: ["Figma", "Mobile App", "UX Design"],
+    github: "#",
+    live: "#",
+    featured: true,
+    year: "—",
+    image: "/assets/img/project1.png",
+    technicalConstraints:
+      "Healthcare mobile app that simplifies patient management, appointment scheduling and provider interactions with intuitive digital experiences.",
+    description: "Streamlined healthcare app simplifying patient management and appointment scheduling.",
+  },
+  {
+    slug: "new-way-clothing-brand",
+    title: "NEW WAY — CLOTHING BRAND IDENTITY",
+    role: "Graphic & Brand Designer",
+    status: "Case study",
+    highlights: [
+      "A contemporary streetwear brand built around bold visuals, modern aesthetics and a distinctive fashion identity.",
+    ],
+    tech: ["Branding", "Visual Identity", "Graphic Design", "Adobe Photoshop"],
+    github: "#",
+    live: "#",
+    featured: true,
+    year: "—",
+    image: "/assets/img/project2.png",
+    technicalConstraints:
+      "Brand identity case study for a streetwear label: logo, apparel, packaging and campaign visuals built around bold imagery and a distinctive fashion identity.",
+    description: "Contemporary streetwear brand identity built around bold visuals and modern aesthetics.",
+  },
+  {
+    slug: "krishimate-farming-app",
+    title: "KRISHIMATE — SMART FARMING APP",
+    role: "UI/UX Designer",
+    status: "Case study",
+    highlights: [
+      "An intelligent farming platform helping farmers monitor crops, access AI-powered insights and make smarter agricultural decisions.",
+    ],
+    tech: ["Figma", "Mobile App", "Branding"],
+    github: "#",
+    live: "#",
+    featured: true,
+    year: "—",
+    image: "/assets/img/project3.png",
+    technicalConstraints:
+      "Smart farming platform that helps farmers monitor crops, access AI-powered insights and make smarter agricultural decisions.",
+    description: "Intelligent farming platform helping farmers monitor crops and make smarter decisions.",
+  },
+];

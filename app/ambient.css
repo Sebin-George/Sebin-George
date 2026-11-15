@@ -1,0 +1,58 @@
+/* Living background (see components/v3/Ambient.tsx) + case-study link styles. */
+
+.ambient {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+  --p: 0;
+}
+
+.orb {
+  position: absolute;
+  border-radius: 50%;
+  will-change: transform;
+}
+.orb-a {
+  width: 58vw; height: 58vw; max-width: 880px; max-height: 880px;
+  left: -14vw; top: -18vh;
+  background: radial-gradient(circle at 40% 40%, rgba(150, 120, 255, 0.28), rgba(150, 120, 255, 0) 70%);
+  animation: driftA 26s ease-in-out infinite;
+}
+.orb-b {
+  width: 46vw; height: 46vw; max-width: 720px; max-height: 720px;
+  right: -12vw; top: 14vh;
+  background: radial-gradient(circle at 50% 50%, rgba(255, 77, 0, 0.12), rgba(255, 77, 0, 0) 70%);
+  animation: driftB 31s ease-in-out infinite;
+}
+.orb-c {
+  width: 40vw; height: 40vw; max-width: 640px; max-height: 640px;
+  left: 32vw; bottom: -22vh;
+  background: radial-gradient(circle at 50% 50%, rgba(120, 90, 235, 0.2), rgba(120, 90, 235, 0) 70%);
+  animation: driftC 36s ease-in-out infinite;
+}
+@keyframes driftA { 0%, 100% { transform: translate(0, 0) scale(1); } 33% { transform: translate(9vw, 6vh) scale(1.12); } 66% { transform: translate(3vw, 14vh) scale(0.94); } }
+@keyframes driftB { 0%, 100% { transform: translate(0, 0) scale(1); } 40% { transform: translate(-10vw, 8vh) scale(1.15); } 70% { transform: translate(-3vw, -6vh) scale(0.92); } }
+@keyframes driftC { 0%, 100% { transform: translate(0, 0) scale(1); } 50% { transform: translate(-12vw, -8vh) scale(1.2); } }
+
+
+/* the page cards sit slightly translucent so the background shows through */
+.tile, .skill { background: rgba(20, 19, 28, 0.86); }
+.badge { background: rgba(20, 19, 28, 0.88); }
+.marquee { background: rgba(255, 255, 255, 0.04); }
+
+/* case-study images are posters (portrait): show the top, where the title lives */
+.proj-media { position: relative; display: block; }
+.proj-media img { object-position: center top; }
+.proj-open {
+  position: absolute; right: 14px; bottom: 14px;
+  padding: 8px 16px; border-radius: 999px; font-size: 14px; font-weight: 500;
+  background: var(--bg); color: var(--ink);
+  transform: translateY(8px); opacity: 0;
+  transition: opacity 0.35s var(--ease), transform 0.35s var(--ease);
+}
+.proj-media:hover .proj-open { opacity: 1; transform: none; }
+.proj-link { justify-self: start; margin-top: 6px; }
+@media (hover: none) { .proj-open { opacity: 1; transform: none; } }
+

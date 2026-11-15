@@ -1,0 +1,28 @@
+/* Background layers around the ported portfolio: 3D water scene + blue glass cube */
+.scene-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+  background: #030303;
+}
+.scene-bg canvas {
+  width: 100% !important;
+  height: 100% !important;
+  display: block;
+}
+.glass-cube {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0; /* same layer as the water scene but later in the DOM, so it draws on top of it and under the page content */
+  pointer-events: none;
+}
+.glass-cube canvas {
+  width: 100% !important;
+  height: 100% !important;
+  display: block;
+}
